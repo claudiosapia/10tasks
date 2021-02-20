@@ -1,11 +1,11 @@
 //get div result
 const result = document.getElementById("result");
+//get inputs from page
+let inputVal = document.getElementsByTagName("input");
 
 //function that counts number of do not know answers chosen by user
-function countDoNotKnow() {
-  let inputVal = document.getElementsByTagName("input");
+const countDoNotKnow = function () {
   let doNotKnow = 0;
-  //get inputs from page
   for (i = 0; i < inputVal.length; i++) {
     // if radio input is checked
     if (inputVal[i].checked) {
@@ -27,7 +27,7 @@ function countDoNotKnow() {
   let totDoNotKnow = Math.max(doNotKnow);
 
   //display result - how many do not know the user has selected
-  result.innerHTML =
+  return (result.innerHTML =
     "<h4" +
     "Thank you for completing this survey" +
     "</h4>" +
@@ -36,8 +36,8 @@ function countDoNotKnow() {
     totDoNotKnow +
     "\n" +
     "times" +
-    "</p>";
-}
+    "</p>");
+};
 
 // reset form and div text
 function resetForm() {
@@ -46,6 +46,10 @@ function resetForm() {
 
 //use a record structure to store details of the survey questions
 const questions = document.getElementsByTagName("h3");
+
+//init array to push our questions using for loop.
+let questionsArray = [];
 for (let i = 0; i < questions.length; i++) {
   const element = questions[i];
+  questionsArray.push(element);
 }

@@ -18,9 +18,9 @@ const max = 30;
 let num1 = Math.floor(Math.random() * (max - min + 1)) + min;
 let num2 = Math.floor(Math.random() * (max - min + 1)) + min;
 //assign random numbers to inputs
-numb1.value = num1;
-numb2.value = num2;
-//sum numbers so we get correcr result to improve logic
+numb1.value = Number(num1);
+numb2.value = Number(num2);
+//sum numbers so we get correct result to improve logic
 var sum = num1 + num2;
 //init let answer from 0 to count correct answers
 let answer = 0;

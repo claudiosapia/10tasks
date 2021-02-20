@@ -3,7 +3,6 @@
 // The program requires the highest possible score for an exam, each student’s name (first name and surname) and each student’s mark.
 
 "use strict";
-
 //created array of 15 students and exam score
 const students = [
   ["Jarod", "Bird"],
@@ -36,20 +35,19 @@ let grade;
 //max score for exam
 let maxScore = 200;
 
-//calc percentage of marks detracting n. of correct answers from 200 wich is the maximum possible result.
+//calc percentage of marks dividing  n. of correct answers by 200 wich is the maximum possible score multipling result by 100.
 function calcPercentageMark(answers) {
   return (answers / maxScore) * 100 + 1;
 }
 
 // randomMarks () loops through students, generates random marks, convert in percentage using calcPercentageMark()
 function randomMarks(min) {
-  min = 60;
   for (let i = 0; i < students.length; i++) {
-    students[i][2] = calcPercentageMark(Math.random() * (maxScore - min) + min);
+    students[i][2] = calcPercentageMark(Math.random() * (maxScore - 60) + 60);
     students[i][2] = Math.floor(students[i][2]);
   }
 }
-randomMarks();
+randomMarks(60);
 
 //loop through students to check if mark is >= 70%
 for (let i = 0; i < students.length; i++) {
@@ -123,5 +121,8 @@ div.innerHTML = `<br><br><br> <h1 class='display-4'> Total number of A passes ${
     </h1><h1 class='display-4'> Total number of Fails 
     ${marks.fail} 
     </h1 class='display-4'></div><br><br>`;
+
 // append created div to body
 document.body.appendChild(div);
+
+module.exports = { randomMarks, students, calcPercentageMark, marks };
