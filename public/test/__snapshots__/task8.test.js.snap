@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test that CHARACTERS typed from user and PASSWORD ARE VALIDATED tests that password validator button click functionality works FUNCTION INVOKED 1ST TIME 1`] = `"<h1>2 attempts left.</h1><br> <h1 class=\\"text-danger\\"> Wrong password!, make sure your password format and length are correct</h1><br><br> Hint:<br> Land of the Brave, Glens, Whiskey"`;
+
+exports[`test that CHARACTERS typed from user and PASSWORD ARE VALIDATED tests that password validator button click functionality works FUNCTION INVOKED 1ST TIME 2`] = `""`;
+
+exports[`test that CHARACTERS typed from user and PASSWORD ARE VALIDATED tests that password validator button click functionality works FUNCTION INVOKED 1ST TIME 3`] = `false`;
+
+exports[`test that CHARACTERS typed from user and PASSWORD ARE VALIDATED tests that password validator button click functionality works FUNCTION INVOKED 2ND TIME 1`] = `"<h1>1 attempts left.</h1><br> <h1 class=\\"text-danger\\"> Wrong password!, make sure your password format and length are correct</h1><br><br> Hint:<br> Land of the Brave, Glens, Whiskey"`;
+
+exports[`test that CHARACTERS typed from user and PASSWORD ARE VALIDATED tests that password validator button click functionality works FUNCTION INVOKED 2ND TIME 2`] = `""`;
+
+exports[`test that CHARACTERS typed from user and PASSWORD ARE VALIDATED tests that password validator button click functionality works FUNCTION INVOKED 2ND TIME 3`] = `false`;
+
+exports[`test that CHARACTERS typed from user and PASSWORD ARE VALIDATED tests that password validator button click functionality works FUNCTION INVOKED 3RD TIME 1`] = `""`;
+
+exports[`test that CHARACTERS typed from user and PASSWORD ARE VALIDATED tests that password validator button click functionality works FUNCTION INVOKED 3RD TIME 2`] = `"Too many attempts! Please try again later or contact our support team"`;
+
+exports[`test that CHARACTERS typed from user and PASSWORD ARE VALIDATED tests that password validator button click functionality works FUNCTION INVOKED 3RD TIME 3`] = `true`;

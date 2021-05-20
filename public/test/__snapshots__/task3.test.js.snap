@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`if user answer correctly 8 times, END the quiz and display user feedback 1`] = `"<h2>Well done!<br>You have answered correctly to more than 7 questions! You have passed the test!</h2>"`;
+
+exports[`min max values for random generated values assigned to 2 inputs 1`] = `20`;
+
+exports[`min max values for random generated values assigned to 2 inputs 2`] = `30`;
+
+exports[`test if wrong answer is given correct message is displayed to the user 1`] = `"<h2> :(</h2> <h2>Oh No!  The Correct Answer is :</h2><h2>50</h2><h2>Please Try Again!</h2>"`;

@@ -22,7 +22,7 @@ const students = [
   ["Philippe", "Ludacre"],
 ];
 
-// created object or "record" that will take count of number of marks
+// created object , as a "record" that will take count of number of marks
 const marks = {
   a: 0,
   b: 0,
@@ -33,9 +33,9 @@ const marks = {
 //init let grade
 let grade;
 //max score for exam
-let maxScore = 200;
+const maxScore = 200;
 
-//calc percentage of marks dividing  n. of correct answers by 200 wich is the maximum possible score multipling result by 100.
+//calc percentage of marks dividing  n. of correct random generated number of correct answers by 200 wich is the maximum possible score multipling result by 100.
 function calcPercentageMark(answers) {
   return (answers / maxScore) * 100 + 1;
 }
@@ -48,6 +48,7 @@ function randomMarks(min) {
   }
 }
 randomMarks(60);
+
 
 //loop through students to check if mark is >= 70%
 for (let i = 0; i < students.length; i++) {
@@ -74,6 +75,7 @@ for (let i = 0; i < students.length; i++) {
     div.className = "container text-center";
     //print students initials,percentage mark, grade
     div.innerHTML = `<strong><h1 class= display-4> ${students[i][0][0]}.${students[i][1][0]}.&nbsp;&nbsp;&nbsp;${students[i][2]}%&nbsp;&nbsp;&nbsp;${grade}</strong></h1>`;
+    
     // append created div to body
     document.body.appendChild(div);
   } else if (students[i][2] >= 50) {

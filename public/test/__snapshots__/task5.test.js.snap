@@ -1,0 +1,1245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calcPercentageMark function 1`] = `75`;
+
+exports[`randomMarks function works as expected 1`] = `"number"`;
+
+exports[`randomMarks function works as expected 2`] = `"number"`;
+
+exports[`randomMarks function works as expected 3`] = `"number"`;
+
+exports[`randomMarks function works as expected 4`] = `"number"`;
+
+exports[`randomMarks function works as expected 5`] = `"number"`;
+
+exports[`randomMarks function works as expected 6`] = `"number"`;
+
+exports[`randomMarks function works as expected 7`] = `"number"`;
+
+exports[`randomMarks function works as expected 8`] = `"number"`;
+
+exports[`randomMarks function works as expected 9`] = `"number"`;
+
+exports[`randomMarks function works as expected 10`] = `"number"`;
+
+exports[`randomMarks function works as expected 11`] = `"number"`;
+
+exports[`randomMarks function works as expected 12`] = `"number"`;
+
+exports[`randomMarks function works as expected 13`] = `"number"`;
+
+exports[`randomMarks function works as expected 14`] = `"number"`;
+
+exports[`randomMarks function works as expected 15`] = `"number"`;
+
+exports[`returned value of marks inside marks object is correct 1`] = `6`;
+
+exports[`returned value of marks inside marks object is correct 2`] = `1`;
+
+exports[`returned value of marks inside marks object is correct 3`] = `3`;
+
+exports[`returned value of marks inside marks object is correct 4`] = `3`;
+
+exports[`returned value of marks inside marks object is correct 5`] = `2`;
+
+exports[`students are sorted and displayed correctly checks that number of students is correct 1`] = `15`;
+
+exports[`students are sorted and displayed correctly should return sorted students by marks from high to low 1`] = `
+Array [
+  Array [
+    "Elise",
+    "Marks",
+    98,
+  ],
+  Array [
+    "Riyad",
+    "Munro",
+    96,
+  ],
+  Array [
+    "Elsie",
+    "Smith",
+    94,
+  ],
+  Array [
+    "Giovanni",
+    "Armstrong",
+    90,
+  ],
+  Array [
+    "Hareem",
+    "Bain",
+    84,
+  ],
+  Array [
+    "Jarod",
+    "Bird",
+    83,
+  ],
+  Array [
+    "Philippe",
+    "Ludacre",
+    71,
+  ],
+  Array [
+    "Shaquille",
+    "Hodgson",
+    70,
+  ],
+  Array [
+    "Hazel",
+    "Wainwright,",
+    62,
+  ],
+  Array [
+    "Tymon",
+    "Jeffery",
+    56,
+  ],
+  Array [
+    "Ethel",
+    "Hickman",
+    53,
+  ],
+  Array [
+    "Sebastian",
+    "Papale",
+    41,
+  ],
+  Array [
+    "Cristian",
+    "Larson",
+    39,
+  ],
+  Array [
+    "Nick",
+    "Muller",
+    37,
+  ],
+  Array [
+    "Declan",
+    "Lucero",
+    32,
+  ],
+]
+`;
+
+exports[`students are sorted and displayed correctly should return sorted students by marks from high to low 2`] = `
+Array [
+  Array [
+    "Elise",
+    "Marks",
+    98,
+  ],
+  Array [
+    "Riyad",
+    "Munro",
+    96,
+  ],
+  Array [
+    "Elsie",
+    "Smith",
+    94,
+  ],
+  Array [
+    "Giovanni",
+    "Armstrong",
+    90,
+  ],
+  Array [
+    "Hareem",
+    "Bain",
+    84,
+  ],
+  Array [
+    "Jarod",
+    "Bird",
+    83,
+  ],
+  Array [
+    "Philippe",
+    "Ludacre",
+    71,
+  ],
+  Array [
+    "Shaquille",
+    "Hodgson",
+    70,
+  ],
+  Array [
+    "Hazel",
+    "Wainwright,",
+    62,
+  ],
+  Array [
+    "Tymon",
+    "Jeffery",
+    56,
+  ],
+  Array [
+    "Ethel",
+    "Hickman",
+    53,
+  ],
+  Array [
+    "Sebastian",
+    "Papale",
+    41,
+  ],
+  Array [
+    "Cristian",
+    "Larson",
+    39,
+  ],
+  Array [
+    "Nick",
+    "Muller",
+    37,
+  ],
+  Array [
+    "Declan",
+    "Lucero",
+    32,
+  ],
+]
+`;
+
+exports[`students are sorted and displayed correctly should return sorted students by marks from high to low 3`] = `
+Array [
+  Array [
+    "Elise",
+    "Marks",
+    98,
+  ],
+  Array [
+    "Riyad",
+    "Munro",
+    96,
+  ],
+  Array [
+    "Elsie",
+    "Smith",
+    94,
+  ],
+  Array [
+    "Giovanni",
+    "Armstrong",
+    90,
+  ],
+  Array [
+    "Hareem",
+    "Bain",
+    84,
+  ],
+  Array [
+    "Jarod",
+    "Bird",
+    83,
+  ],
+  Array [
+    "Philippe",
+    "Ludacre",
+    71,
+  ],
+  Array [
+    "Shaquille",
+    "Hodgson",
+    70,
+  ],
+  Array [
+    "Hazel",
+    "Wainwright,",
+    62,
+  ],
+  Array [
+    "Tymon",
+    "Jeffery",
+    56,
+  ],
+  Array [
+    "Ethel",
+    "Hickman",
+    53,
+  ],
+  Array [
+    "Sebastian",
+    "Papale",
+    41,
+  ],
+  Array [
+    "Cristian",
+    "Larson",
+    39,
+  ],
+  Array [
+    "Nick",
+    "Muller",
+    37,
+  ],
+  Array [
+    "Declan",
+    "Lucero",
+    32,
+  ],
+]
+`;
+
+exports[`students are sorted and displayed correctly should return sorted students by marks from high to low 4`] = `
+Array [
+  Array [
+    "Elise",
+    "Marks",
+    98,
+  ],
+  Array [
+    "Riyad",
+    "Munro",
+    96,
+  ],
+  Array [
+    "Elsie",
+    "Smith",
+    94,
+  ],
+  Array [
+    "Giovanni",
+    "Armstrong",
+    90,
+  ],
+  Array [
+    "Hareem",
+    "Bain",
+    84,
+  ],
+  Array [
+    "Jarod",
+    "Bird",
+    83,
+  ],
+  Array [
+    "Philippe",
+    "Ludacre",
+    71,
+  ],
+  Array [
+    "Shaquille",
+    "Hodgson",
+    70,
+  ],
+  Array [
+    "Hazel",
+    "Wainwright,",
+    62,
+  ],
+  Array [
+    "Tymon",
+    "Jeffery",
+    56,
+  ],
+  Array [
+    "Ethel",
+    "Hickman",
+    53,
+  ],
+  Array [
+    "Sebastian",
+    "Papale",
+    41,
+  ],
+  Array [
+    "Cristian",
+    "Larson",
+    39,
+  ],
+  Array [
+    "Nick",
+    "Muller",
+    37,
+  ],
+  Array [
+    "Declan",
+    "Lucero",
+    32,
+  ],
+]
+`;
+
+exports[`students are sorted and displayed correctly should return sorted students by marks from high to low 5`] = `
+Array [
+  Array [
+    "Elise",
+    "Marks",
+    98,
+  ],
+  Array [
+    "Riyad",
+    "Munro",
+    96,
+  ],
+  Array [
+    "Elsie",
+    "Smith",
+    94,
+  ],
+  Array [
+    "Giovanni",
+    "Armstrong",
+    90,
+  ],
+  Array [
+    "Hareem",
+    "Bain",
+    84,
+  ],
+  Array [
+    "Jarod",
+    "Bird",
+    83,
+  ],
+  Array [
+    "Philippe",
+    "Ludacre",
+    71,
+  ],
+  Array [
+    "Shaquille",
+    "Hodgson",
+    70,
+  ],
+  Array [
+    "Hazel",
+    "Wainwright,",
+    62,
+  ],
+  Array [
+    "Tymon",
+    "Jeffery",
+    56,
+  ],
+  Array [
+    "Ethel",
+    "Hickman",
+    53,
+  ],
+  Array [
+    "Sebastian",
+    "Papale",
+    41,
+  ],
+  Array [
+    "Cristian",
+    "Larson",
+    39,
+  ],
+  Array [
+    "Nick",
+    "Muller",
+    37,
+  ],
+  Array [
+    "Declan",
+    "Lucero",
+    32,
+  ],
+]
+`;
+
+exports[`students are sorted and displayed correctly should return sorted students by marks from high to low 6`] = `
+Array [
+  Array [
+    "Elise",
+    "Marks",
+    98,
+  ],
+  Array [
+    "Riyad",
+    "Munro",
+    96,
+  ],
+  Array [
+    "Elsie",
+    "Smith",
+    94,
+  ],
+  Array [
+    "Giovanni",
+    "Armstrong",
+    90,
+  ],
+  Array [
+    "Hareem",
+    "Bain",
+    84,
+  ],
+  Array [
+    "Jarod",
+    "Bird",
+    83,
+  ],
+  Array [
+    "Philippe",
+    "Ludacre",
+    71,
+  ],
+  Array [
+    "Shaquille",
+    "Hodgson",
+    70,
+  ],
+  Array [
+    "Hazel",
+    "Wainwright,",
+    62,
+  ],
+  Array [
+    "Tymon",
+    "Jeffery",
+    56,
+  ],
+  Array [
+    "Ethel",
+    "Hickman",
+    53,
+  ],
+  Array [
+    "Sebastian",
+    "Papale",
+    41,
+  ],
+  Array [
+    "Cristian",
+    "Larson",
+    39,
+  ],
+  Array [
+    "Nick",
+    "Muller",
+    37,
+  ],
+  Array [
+    "Declan",
+    "Lucero",
+    32,
+  ],
+]
+`;
+
+exports[`students are sorted and displayed correctly should return sorted students by marks from high to low 7`] = `
+Array [
+  Array [
+    "Elise",
+    "Marks",
+    98,
+  ],
+  Array [
+    "Riyad",
+    "Munro",
+    96,
+  ],
+  Array [
+    "Elsie",
+    "Smith",
+    94,
+  ],
+  Array [
+    "Giovanni",
+    "Armstrong",
+    90,
+  ],
+  Array [
+    "Hareem",
+    "Bain",
+    84,
+  ],
+  Array [
+    "Jarod",
+    "Bird",
+    83,
+  ],
+  Array [
+    "Philippe",
+    "Ludacre",
+    71,
+  ],
+  Array [
+    "Shaquille",
+    "Hodgson",
+    70,
+  ],
+  Array [
+    "Hazel",
+    "Wainwright,",
+    62,
+  ],
+  Array [
+    "Tymon",
+    "Jeffery",
+    56,
+  ],
+  Array [
+    "Ethel",
+    "Hickman",
+    53,
+  ],
+  Array [
+    "Sebastian",
+    "Papale",
+    41,
+  ],
+  Array [
+    "Cristian",
+    "Larson",
+    39,
+  ],
+  Array [
+    "Nick",
+    "Muller",
+    37,
+  ],
+  Array [
+    "Declan",
+    "Lucero",
+    32,
+  ],
+]
+`;
+
+exports[`students are sorted and displayed correctly should return sorted students by marks from high to low 8`] = `
+Array [
+  Array [
+    "Elise",
+    "Marks",
+    98,
+  ],
+  Array [
+    "Riyad",
+    "Munro",
+    96,
+  ],
+  Array [
+    "Elsie",
+    "Smith",
+    94,
+  ],
+  Array [
+    "Giovanni",
+    "Armstrong",
+    90,
+  ],
+  Array [
+    "Hareem",
+    "Bain",
+    84,
+  ],
+  Array [
+    "Jarod",
+    "Bird",
+    83,
+  ],
+  Array [
+    "Philippe",
+    "Ludacre",
+    71,
+  ],
+  Array [
+    "Shaquille",
+    "Hodgson",
+    70,
+  ],
+  Array [
+    "Hazel",
+    "Wainwright,",
+    62,
+  ],
+  Array [
+    "Tymon",
+    "Jeffery",
+    56,
+  ],
+  Array [
+    "Ethel",
+    "Hickman",
+    53,
+  ],
+  Array [
+    "Sebastian",
+    "Papale",
+    41,
+  ],
+  Array [
+    "Cristian",
+    "Larson",
+    39,
+  ],
+  Array [
+    "Nick",
+    "Muller",
+    37,
+  ],
+  Array [
+    "Declan",
+    "Lucero",
+    32,
+  ],
+]
+`;
+
+exports[`students are sorted and displayed correctly should return sorted students by marks from high to low 9`] = `
+Array [
+  Array [
+    "Elise",
+    "Marks",
+    98,
+  ],
+  Array [
+    "Riyad",
+    "Munro",
+    96,
+  ],
+  Array [
+    "Elsie",
+    "Smith",
+    94,
+  ],
+  Array [
+    "Giovanni",
+    "Armstrong",
+    90,
+  ],
+  Array [
+    "Hareem",
+    "Bain",
+    84,
+  ],
+  Array [
+    "Jarod",
+    "Bird",
+    83,
+  ],
+  Array [
+    "Philippe",
+    "Ludacre",
+    71,
+  ],
+  Array [
+    "Shaquille",
+    "Hodgson",
+    70,
+  ],
+  Array [
+    "Hazel",
+    "Wainwright,",
+    62,
+  ],
+  Array [
+    "Tymon",
+    "Jeffery",
+    56,
+  ],
+  Array [
+    "Ethel",
+    "Hickman",
+    53,
+  ],
+  Array [
+    "Sebastian",
+    "Papale",
+    41,
+  ],
+  Array [
+    "Cristian",
+    "Larson",
+    39,
+  ],
+  Array [
+    "Nick",
+    "Muller",
+    37,
+  ],
+  Array [
+    "Declan",
+    "Lucero",
+    32,
+  ],
+]
+`;
+
+exports[`students are sorted and displayed correctly should return sorted students by marks from high to low 10`] = `
+Array [
+  Array [
+    "Elise",
+    "Marks",
+    98,
+  ],
+  Array [
+    "Riyad",
+    "Munro",
+    96,
+  ],
+  Array [
+    "Elsie",
+    "Smith",
+    94,
+  ],
+  Array [
+    "Giovanni",
+    "Armstrong",
+    90,
+  ],
+  Array [
+    "Hareem",
+    "Bain",
+    84,
+  ],
+  Array [
+    "Jarod",
+    "Bird",
+    83,
+  ],
+  Array [
+    "Philippe",
+    "Ludacre",
+    71,
+  ],
+  Array [
+    "Shaquille",
+    "Hodgson",
+    70,
+  ],
+  Array [
+    "Hazel",
+    "Wainwright,",
+    62,
+  ],
+  Array [
+    "Tymon",
+    "Jeffery",
+    56,
+  ],
+  Array [
+    "Ethel",
+    "Hickman",
+    53,
+  ],
+  Array [
+    "Sebastian",
+    "Papale",
+    41,
+  ],
+  Array [
+    "Cristian",
+    "Larson",
+    39,
+  ],
+  Array [
+    "Nick",
+    "Muller",
+    37,
+  ],
+  Array [
+    "Declan",
+    "Lucero",
+    32,
+  ],
+]
+`;
+
+exports[`students are sorted and displayed correctly should return sorted students by marks from high to low 11`] = `
+Array [
+  Array [
+    "Elise",
+    "Marks",
+    98,
+  ],
+  Array [
+    "Riyad",
+    "Munro",
+    96,
+  ],
+  Array [
+    "Elsie",
+    "Smith",
+    94,
+  ],
+  Array [
+    "Giovanni",
+    "Armstrong",
+    90,
+  ],
+  Array [
+    "Hareem",
+    "Bain",
+    84,
+  ],
+  Array [
+    "Jarod",
+    "Bird",
+    83,
+  ],
+  Array [
+    "Philippe",
+    "Ludacre",
+    71,
+  ],
+  Array [
+    "Shaquille",
+    "Hodgson",
+    70,
+  ],
+  Array [
+    "Hazel",
+    "Wainwright,",
+    62,
+  ],
+  Array [
+    "Tymon",
+    "Jeffery",
+    56,
+  ],
+  Array [
+    "Ethel",
+    "Hickman",
+    53,
+  ],
+  Array [
+    "Sebastian",
+    "Papale",
+    41,
+  ],
+  Array [
+    "Cristian",
+    "Larson",
+    39,
+  ],
+  Array [
+    "Nick",
+    "Muller",
+    37,
+  ],
+  Array [
+    "Declan",
+    "Lucero",
+    32,
+  ],
+]
+`;
+
+exports[`students are sorted and displayed correctly should return sorted students by marks from high to low 12`] = `
+Array [
+  Array [
+    "Elise",
+    "Marks",
+    98,
+  ],
+  Array [
+    "Riyad",
+    "Munro",
+    96,
+  ],
+  Array [
+    "Elsie",
+    "Smith",
+    94,
+  ],
+  Array [
+    "Giovanni",
+    "Armstrong",
+    90,
+  ],
+  Array [
+    "Hareem",
+    "Bain",
+    84,
+  ],
+  Array [
+    "Jarod",
+    "Bird",
+    83,
+  ],
+  Array [
+    "Philippe",
+    "Ludacre",
+    71,
+  ],
+  Array [
+    "Shaquille",
+    "Hodgson",
+    70,
+  ],
+  Array [
+    "Hazel",
+    "Wainwright,",
+    62,
+  ],
+  Array [
+    "Tymon",
+    "Jeffery",
+    56,
+  ],
+  Array [
+    "Ethel",
+    "Hickman",
+    53,
+  ],
+  Array [
+    "Sebastian",
+    "Papale",
+    41,
+  ],
+  Array [
+    "Cristian",
+    "Larson",
+    39,
+  ],
+  Array [
+    "Nick",
+    "Muller",
+    37,
+  ],
+  Array [
+    "Declan",
+    "Lucero",
+    32,
+  ],
+]
+`;
+
+exports[`students are sorted and displayed correctly should return sorted students by marks from high to low 13`] = `
+Array [
+  Array [
+    "Elise",
+    "Marks",
+    98,
+  ],
+  Array [
+    "Riyad",
+    "Munro",
+    96,
+  ],
+  Array [
+    "Elsie",
+    "Smith",
+    94,
+  ],
+  Array [
+    "Giovanni",
+    "Armstrong",
+    90,
+  ],
+  Array [
+    "Hareem",
+    "Bain",
+    84,
+  ],
+  Array [
+    "Jarod",
+    "Bird",
+    83,
+  ],
+  Array [
+    "Philippe",
+    "Ludacre",
+    71,
+  ],
+  Array [
+    "Shaquille",
+    "Hodgson",
+    70,
+  ],
+  Array [
+    "Hazel",
+    "Wainwright,",
+    62,
+  ],
+  Array [
+    "Tymon",
+    "Jeffery",
+    56,
+  ],
+  Array [
+    "Ethel",
+    "Hickman",
+    53,
+  ],
+  Array [
+    "Sebastian",
+    "Papale",
+    41,
+  ],
+  Array [
+    "Cristian",
+    "Larson",
+    39,
+  ],
+  Array [
+    "Nick",
+    "Muller",
+    37,
+  ],
+  Array [
+    "Declan",
+    "Lucero",
+    32,
+  ],
+]
+`;
+
+exports[`students are sorted and displayed correctly should return sorted students by marks from high to low 14`] = `
+Array [
+  Array [
+    "Elise",
+    "Marks",
+    98,
+  ],
+  Array [
+    "Riyad",
+    "Munro",
+    96,
+  ],
+  Array [
+    "Elsie",
+    "Smith",
+    94,
+  ],
+  Array [
+    "Giovanni",
+    "Armstrong",
+    90,
+  ],
+  Array [
+    "Hareem",
+    "Bain",
+    84,
+  ],
+  Array [
+    "Jarod",
+    "Bird",
+    83,
+  ],
+  Array [
+    "Philippe",
+    "Ludacre",
+    71,
+  ],
+  Array [
+    "Shaquille",
+    "Hodgson",
+    70,
+  ],
+  Array [
+    "Hazel",
+    "Wainwright,",
+    62,
+  ],
+  Array [
+    "Tymon",
+    "Jeffery",
+    56,
+  ],
+  Array [
+    "Ethel",
+    "Hickman",
+    53,
+  ],
+  Array [
+    "Sebastian",
+    "Papale",
+    41,
+  ],
+  Array [
+    "Cristian",
+    "Larson",
+    39,
+  ],
+  Array [
+    "Nick",
+    "Muller",
+    37,
+  ],
+  Array [
+    "Declan",
+    "Lucero",
+    32,
+  ],
+]
+`;
+
+exports[`students are sorted and displayed correctly should return sorted students by marks from high to low 15`] = `
+Array [
+  Array [
+    "Elise",
+    "Marks",
+    98,
+  ],
+  Array [
+    "Riyad",
+    "Munro",
+    96,
+  ],
+  Array [
+    "Elsie",
+    "Smith",
+    94,
+  ],
+  Array [
+    "Giovanni",
+    "Armstrong",
+    90,
+  ],
+  Array [
+    "Hareem",
+    "Bain",
+    84,
+  ],
+  Array [
+    "Jarod",
+    "Bird",
+    83,
+  ],
+  Array [
+    "Philippe",
+    "Ludacre",
+    71,
+  ],
+  Array [
+    "Shaquille",
+    "Hodgson",
+    70,
+  ],
+  Array [
+    "Hazel",
+    "Wainwright,",
+    62,
+  ],
+  Array [
+    "Tymon",
+    "Jeffery",
+    56,
+  ],
+  Array [
+    "Ethel",
+    "Hickman",
+    53,
+  ],
+  Array [
+    "Sebastian",
+    "Papale",
+    41,
+  ],
+  Array [
+    "Cristian",
+    "Larson",
+    39,
+  ],
+  Array [
+    "Nick",
+    "Muller",
+    37,
+  ],
+  Array [
+    "Declan",
+    "Lucero",
+    32,
+  ],
+]
+`;

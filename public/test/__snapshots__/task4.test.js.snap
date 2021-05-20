@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test ShuffleWord Function and orSentence shuffleWord is of the same length of orSentence 1`] = `41`;
+
+exports[`Test ShuffleWord Function and orSentence tests if orSentence and result are string 1`] = `"Right You Are! It Is So! If You Think So!"`;
+
+exports[`Test ShuffleWord Function and orSentence tests if orSentence and result are string 2`] = `"ue out  koT iRIinI! !!tAghYYs SoS rIo hf "`;

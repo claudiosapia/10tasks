@@ -1,65 +1,70 @@
 "use strict";
+window.onload = function (){
 
-document.addEventListener("DOMContentLoaded", function () {
-  //get html h1 tags
+
+
+     //get html h1 tags
   let dispOrSentence = document.getElementById("originalSentence");
-  let changedSentence = document.getElementById("changedSentence");
+  const changedSentence = document.getElementById("changedSentence");
 
   // original sentence
   const orSentence = "Right You Are! It Is So! If You Think So!";
+    dispOrSentence.innerHTML = orSentence;
+
   // display original sentence
-  dispOrSentence.innerHTML = orSentence;
+    if( dispOrSentence != null){
+     dispOrSentence= dispOrSentence.innerHTML;
 
-  //init new const storing string without spaces
-  const noSpacesString = orSentence.replace(/\s/g, "");
+}
 
-  //generate random letters passing param of length which will be the length of our noSpacesString
-  const randomLetter = function (array, length) {
-    const letters = "abcdefghijklmnopqrstuvwxyz";
-    for (let i = 0; i < length; i++) {
-      //returns the character at the specified index in string.
-      array += letters.charAt(Math.floor(Math.random() * letters.length));
+
+//PASSING PARAMETER word to function shuffleWord that will shuffle letters of word passed as argument when function is called.
+const shuffleWord = function (word) {
+//store word.split in variable
+    let splitSentence = word.split("")
+    //store length of split word in var
+       let length = splitSentence.length;
+//loop - from last char to first char of string
+    for(let i = length - 1; i > 0; i--) {
+      //created random number and stored in variable
+        const j = Math.floor(Math.random() * (i + 1));
+        //stored looped random char at index of [i] in 'temporary' variable
+        const tmp =splitSentence[i];
+        //swapped char at index [i] with char at index [j]
+       splitSentence[i] =splitSentence[j];
+       //temp random char at index [j] is swapped with char at index[i] stored in tmp var
+       splitSentence[j] = tmp;
     }
-    return array;
-  };
-  //output changed sentence
-  const length = noSpacesString.length;
-  let changedString = randomLetter(length);
+    //return concatenated sentence using .join method separated by space
+    const joinedSentence= splitSentence.join("");
+    return joinedSentence;
+}
 
-  changedSentence.innerHTML = changedString;
+ 
 
-  let addedSpace = changedString.split("").join(" ");
-  //add spaces to changed string button
-  const button = document.getElementById("addSpaces");
-  button.addEventListener("click", function () {
-    changedSentence.innerHTML = addedSpace;
-  });
+  //display shuffled characters, changed sentence
+  changedSentence.innerHTML = shuffleWord(orSentence);
+}
 
-  //remove spaces to changed string button
-  const removeS = document.getElementById("removeS");
-  removeS.addEventListener("click", function () {
-    changedSentence.innerHTML = changedString;
-  });
-});
-// function sum(x, y) {
-//   return x + y;
-// }
 
-//EXPORT FOR TESTING -- had to copy code below as I used DOMContentLoaded due to JEST giving errors due to dom content not loaded
+//EXPORTS FOR TESTING
+module.exports.shuffleWord = function (word) {
+//store word.split in variable
+    const splitSentence = word.split("")
+    //store length of split word in var
+       const length = splitSentence.length;
+//loop - from last char to first char of string
+    for(let i = length - 1; i > 0; i--) {
+      //created random number and stored in variable
+        const j = Math.floor(Math.random() * (i + 1));
+        //stored looped random char at index of [i] in 'temporary' variable
+        const tmp =splitSentence[i];
+        //swapped char at index [i] with char at index [j]
+       splitSentence[i] =splitSentence[j];
+       //temp random char at index [j] is swapped with char at index[i] stored in tmp var
+       splitSentence[j] = tmp;
+    }
+    //return concatenated sentence using .join method separated by space
+    return splitSentence.join("");
+}
 
-// original sentence
-const orSentence = "Right You Are! It Is So! If You Think So!";
-const noSpacesString = orSentence.replace(/\s/g, "");
-//output changed sentence
-const len = noSpacesString.length;
-
-const randomLetter = function (array, length) {
-  const letters = "abcdefghijklmnopqrstuvwxyz";
-  for (let i = 0; i < length; i++) {
-    //returns the character at the specified index in string.
-    array += letters.charAt(Math.floor(Math.random() * letters.length));
-  }
-  return array;
-};
-
-module.exports = { randomLetter, noSpacesString, len };

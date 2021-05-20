@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FULL TEST OF TASK 9,  tests countOccurence function 1`] = `"number"`;
+
+exports[`FULL TEST OF TASK 9,  tests linearSearch function 1`] = `"number"`;
+
+exports[`FULL TEST OF TASK 9,  tests mocked user input, random numbers, let min and max, array, button 1`] = `"number"`;
+
+exports[`FULL TEST OF TASK 9,  tests mocked user input, random numbers, let min and max, array, button 2`] = `20`;
+
+exports[`TEST INTEGRATION OF COMPONENTS tests displayResult function 1`] = `"string"`;
+
+exports[`TEST INTEGRATION OF COMPONENTS tests displayResult function 2`] = `158`;
+
+exports[`TEST INTEGRATION OF COMPONENTS tests displayResult function 3`] = `"string"`;
+
+exports[`TEST INTEGRATION OF COMPONENTS tests displayResult function 4`] = `"btn btn-primary btn-lg hide"`;

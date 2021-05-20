@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`randomLetter works as it should tests that correct number and format of random letters is  sorted and displayed correctly, element at center of the list is selected 1`] = `"ABCDEFGHIJKLMNOPQRSTUVWXYZ"`;
+
+exports[`randomLetter works as it should tests that correct number and format of random letters is  sorted and displayed correctly, element at center of the list is selected 2`] = `35`;
+
+exports[`randomLetter works as it should tests that correct number and format of random letters is  sorted and displayed correctly, element at center of the list is selected 3`] = `35`;
+
+exports[`randomLetter works as it should tests that correct number and format of random letters is  sorted and displayed correctly, element at center of the list is selected 4`] = `1`;
+
+exports[`randomLetter works as it should tests that random letters are split, sorted and displayed correctly 1`] = `323`;

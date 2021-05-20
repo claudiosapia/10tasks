@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check that lap 1 and lap 2 times are less than max and > min after filtering runners 1`] = `50`;
+
+exports[`check that lap 1 and lap 2 times are less than max and > min after filtering runners 2`] = `50`;
+
+exports[`check that lap 1 and lap 2 times are less than max and > min after filtering runners 3`] = `50`;
+
+exports[`check that lap 1 and lap 2 times are less than max and > min after filtering runners 4`] = `50`;
+
+exports[`check that lap 1 and lap 2 times are less than max and > min after filtering runners 5`] = `50`;
+
+exports[`check that lap 1 and lap 2 times are less than max and > min after filtering runners 6`] = `50`;
+
+exports[`check that lap 1 and lap 2 times are less than max and > min after filtering runners 7`] = `50`;
+
+exports[`check that lap 1 and lap 2 times are less than max and > min after filtering runners 8`] = `50`;
+
+exports[`min max values for random generated times for runners' laps 1 and 2 are < max and > min 1`] = `62.12844619355752`;

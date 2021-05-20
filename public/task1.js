@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const breakpoint = 50;
 
   //init array of runners
-  const runners = [
+  var runners = [
     ["Rita", "Johnson"],
     ["Janet", "Wilson"],
     ["Jane", "Fergus"],
@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ["Joy", "Victory"],
     ["Victoria", "Phillip"],
   ];
+
   // generating random values of runners lap times
   const max = 80;
   const min = 35;
@@ -34,6 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
     runners[i][2] = Math.floor(runners[i][2]);
   }
 
+//PROGRAMMING SKILLS==  CREATE FROM SUBPROGRAMS 
+const addRunnersToTable= function(){
   //add groupA runners in table as content looping through arr
   for (let i = 0; i < runners.length; i++) {
     // create a new row
@@ -46,12 +49,17 @@ document.addEventListener("DOMContentLoaded", function () {
       cell.innerHTML = runners[i][j];
     }
   }
+}
 
-  // filtered runners using .filter targeting time of lap 1 and 2
-  const filteredRunners = runners.filter(function (runner) {
-    return runner[2] < breakpoint || runner[3] < breakpoint;
-  });
+addRunnersToTable();
 
+
+
+ const filteredRunners= runners.filter(function (runner) {
+  return runner[2] < breakpoint || runner[3] < breakpoint;
+});
+
+const displayFastestRunner= function(){
   //display fastest runner and lap time
   for (let i = 0; i < filteredRunners.length; i++) {
     fastestRunner.innerHTML =
@@ -69,7 +77,10 @@ document.addEventListener("DOMContentLoaded", function () {
       cell.innerHTML = filteredRunners[i][j];
     }
   }
+}
+  displayFastestRunner();
 });
+
 
 var elements = {
   breakpoint: 50,
@@ -83,10 +94,7 @@ var elements = {
     ["Joy", "Victory"],
     ["Victoria", "Phillip"],
   ],
-
   formula: Math.random() * (80 - 35) + 35,
-
-  add: (num1, num2) => num1 + num2,
 
   //get groupA html table
   groupA: document.getElementById("grpA"),
@@ -96,6 +104,38 @@ var elements = {
   time: document.getElementById("time"),
   //get table runnersProgressing
   runnersProgressing: document.getElementById("runners-progressing"),
+  displayFastestRunner: function(){
+  //display fastest runner and lap time
+  for (let i = 0; i < filteredRunners.length; i++) {
+    fastestRunner.innerHTML =
+      filteredRunners[0][0] + " " + filteredRunners[0][1];
+    //display filtered runners
+    time.innerHTML = filteredRunners[0][2];
+
+    // create a new row
+    const newRow = runnersProgressing.insertRow(runnersProgressing.length);
+    for (let j = 0; j < filteredRunners[i].length; j++) {
+      // create a new cell
+      const cell = newRow.insertCell(j);
+
+      // add value to the cell
+      cell.innerHTML = filteredRunners[i][j];
+    }
+  }
+}, addRunnersToTable: function(){
+  //add groupA runners in table as content looping through arr
+  for (let i = 0; i < runners.length; i++) {
+    // create a new row
+    const newRow = groupA.insertRow();
+    for (let j = 0; j < runners[i].length; j++) {
+      // create a new cell
+      const cell = newRow.insertCell(j);
+
+      // add value to the cell
+      cell.innerHTML = runners[i][j];
+    }
+  }
+}
+
 };
-//export elements for jest testing
 module.exports = elements;

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check number of questions is 15 1`] = `15`;
+
+exports[`check there are 48 input elems and 14 do not know options 1`] = `14`;
+
+exports[`function countDoNotKnow after simulating ALL inputs to meet conditions: input.checked = true and value is = optionTest ...what we need 1`] = `48`;

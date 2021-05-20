@@ -14,7 +14,6 @@ app.set("views", __dirname + "/public/views");
 
 app.get("/", (req, res) => {
   res.render("index");
-  console.log("index");
 });
 
 app.get("/task1", function (req, res) {
@@ -72,7 +71,8 @@ function saveToFile(data, outFile) {
     writeFile = fs.openSync(outFile, "w");
     fs.writeSync(writeFile, data);
     fs.close(writeFile);
-    callback(null, outFile);
+      console.log('saved')
+
   } catch (err) {
     // handle the error.
     console.log(
@@ -86,8 +86,13 @@ let data = JSON.stringify(colors);
 app.get("/task10", function (req, res) {
   //invoke function to handle file colors1.json
   saveToFile(data, "colors1.json");
+  
   //write file that we will read via our task 10.js
   res.render("task10");
+
+
+
+  
 });
 
 let port = process.env.PORT;
@@ -96,5 +101,8 @@ if (port == null || port == "") {
 }
 
 app.listen(port, function () {
-  console.log("Server started on port 3000");
+  console.log("Server started on port" + port);
 });
+
+
+module.exports = app;

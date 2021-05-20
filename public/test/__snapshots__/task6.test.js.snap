@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createScores works as it should tests Toronto Maple Leaf 1st elements in team before running functions 1`] = `
+Array [
+  "Toronto Maple Leaf",
+  5,
+  1,
+  0,
+]
+`;
+
+exports[`createScores works as it should tests all teams before running functions, wins,draws >= 0 and <=10, team name is a string 1`] = `
+Array [
+  "Toronto Maple Leaf",
+  5,
+  1,
+  0,
+]
+`;
+
+exports[`createScores works as it should tests all teams before running functions, wins,draws >= 0 and <=10, team name is a string 2`] = `
+Array [
+  "Philadelphia Flyers",
+  2,
+  2,
+  2,
+]
+`;
+
+exports[`createScores works as it should tests all teams before running functions, wins,draws >= 0 and <=10, team name is a string 3`] = `
+Array [
+  "New York Rangers",
+  3,
+  1,
+  2,
+]
+`;
+
+exports[`createScores works as it should tests all teams before running functions, wins,draws >= 0 and <=10, team name is a string 4`] = `
+Array [
+  "Boston Bruins",
+  4,
+  1,
+  1,
+]
+`;
+
+exports[`createScores works as it should tests all teams before running functions, wins,draws >= 0 and <=10, team name is a string 5`] = `
+Array [
+  "Vancouver Canucks",
+  1,
+  3,
+  2,
+]
+`;
+
+exports[`createScores works as it should tests createScores function 1`] = `
+Array [
+  "Toronto Maple Leaf",
+  5,
+  1,
+  0,
+  16,
+]
+`;
+
+exports[`createScores works as it should tests createScores function 2`] = `
+Array [
+  "Philadelphia Flyers",
+  2,
+  2,
+  2,
+  8,
+]
+`;
+
+exports[`createScores works as it should tests createScores function 3`] = `
+Array [
+  "New York Rangers",
+  3,
+  1,
+  2,
+  10,
+]
+`;
+
+exports[`createScores works as it should tests createScores function 4`] = `
+Array [
+  "Boston Bruins",
+  4,
+  1,
+  1,
+  13,
+]
+`;
+
+exports[`createScores works as it should tests createScores function 5`] = `
+Array [
+  "Vancouver Canucks",
+  1,
+  3,
+  2,
+  6,
+]
+`;
